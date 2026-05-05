@@ -1,21 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Adaptive PINN (Diagonal + Loop Closure)
-基于 Pure MLP，集成 Adaptive 权重机制。
-
-物理损失完全复现论文公式 (Eq 17):
-L_phys = L_fk + beta * L_diag
-
-1. L_fk (Loop-Closure): || F_IK(pred_pose) - input_legs ||^2
-2. L_diag: (1/6) * Σ[(J_inv @ J_network)_ii - 1]^2
-3. Adaptive Weighting: α(κ) 作用于整个物理损失项
-
-Updates:
-- 修正了 J_network 的计算，引入了变换矩阵 E (Eq 9, 10)，将欧拉角梯度映射为角速度雅可比。
-==================================================
-"""
-
 import sys
 import os
 from datetime import datetime
