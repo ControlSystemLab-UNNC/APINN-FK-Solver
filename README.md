@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/5de85bc9-ad9a-470d-86c1-772254949dfd
-
 # Condition-Number Adaptive-Weight PINN (A-PINN) for Stewart Platforms
 
 This repository contains the official implementation for the paper **"Condition-Number Adaptive-Weight PINN (A-PINN): A High-Fidelity and Real-Time Forward Kinematics Solver for Stewart Platforms"**. 
