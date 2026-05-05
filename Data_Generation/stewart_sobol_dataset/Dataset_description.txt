@@ -1,0 +1,21 @@
+============================================================
+ STEWART DATA GENERATOR (Sobol + Rejection + HaarMeasure + CondCheck)
+============================================================
+
+[Train Set] Generating 300000 samples...
+  Starting Sobol sampling (Target: 300000, Cond Max: 150.0)...
+  Collecting Valid Samples: 302632it [00:05, 54290.42it/s]                      
+  Done. Rejection Rate: 98.28% (Generated 17563648 to get 302632)
+  Saved train dataset to stewart_sobol_dataset/train.pt
+
+[Val Set] Generating 100000 samples...
+  Starting Sobol sampling (Target: 100000, Cond Max: 150.0)...
+  Collecting Valid Samples: 103774it [00:01, 54049.75it/s]                      
+  Done. Rejection Rate: 98.28% (Generated 6029312 to get 103774)
+  Saved val dataset to stewart_sobol_dataset/val.pt
+
+[Test Set] Generating 500000 samples...
+  Starting Sobol sampling (Target: 500000, Cond Max: 150.0)...
+  Collecting Valid Samples: 501305it [00:09, 54974.89it/s]                      
+  Done. Rejection Rate: 98.28% (Generated 29097984 to get 501305)
+  Saved test dataset to stewart_sobol_dataset/test.pt
