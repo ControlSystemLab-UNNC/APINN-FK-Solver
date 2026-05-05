@@ -42,6 +42,7 @@ python Data_Generator_Normalized_Haar_Sobol_Rejection_Sampling.py
 
 ### 3. Model Training
 Once the dataset is prepared, you can train the A-PINN framework. The training script automatically applies the condition-number-adaptive weights and implicit Sobolev regularization to ensure physical consistency. 
+
 ⚠️ IMPORTANT: Before starting the training, please open L2ori_wJ_aPINN.py and modify the dataset path (at the end of the script) variable to match the actual location of the dataset you just generated on your local machine.
 
 ```bash
