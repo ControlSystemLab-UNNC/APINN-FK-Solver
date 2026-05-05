@@ -1,0 +1,21 @@
+==================== Training Results ====================
+Best Epoch: 5840
+Best Val Position Error: 0.049915 mm
+Best Val Orientation Error: 0.005352 deg
+
+==================== Configuration ====================
+train_data: ./stewart_sobol_dataset/train.pt
+val_data: ./stewart_sobol_dataset/val.pt
+test_data: ./stewart_sobol_dataset/test.pt
+save_path: L2ori_wJ_adaptive_PINN.pt
+kappa_threshold: 7.5
+kappa_scale: 1.0
+max_alpha: 1000.0
+adaptive_offset: 200.0
+beta: 1.0
+angular_weight: 1.0
+epochs: 6000
+batch_size: 4096
+hidden_dim: 256
+noise_std: 0.0001
+seed: 42
