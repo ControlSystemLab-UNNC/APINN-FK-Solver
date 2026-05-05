@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/5de85bc9-ad9a-470d-86c1-772254949dfd
+
 # Condition-Number Adaptive-Weight PINN (A-PINN) for Stewart Platforms
 
 This repository contains the official implementation for the paper **"Condition-Number Adaptive-Weight PINN (A-PINN): A High-Fidelity and Real-Time Forward Kinematics Solver for Stewart Platforms"**. 
@@ -52,6 +56,9 @@ python L2ori_wJ_aPINN.py
 Upon successful training, the PyTorch model weights will be saved as `L2ori_wJ_adaptive_PINN.pt` inside the `Train_model/result/` directory. The training logs will be saved in `result_info.txt`.
 
 ## 📊 Demo Vedio
+
+https://github.com/user-attachments/assets/339e219e-859d-4bbe-a369-ca24849c2064
+
 
 
 ## 📖 Citation
