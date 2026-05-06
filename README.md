@@ -53,9 +53,7 @@ Upon successful training, the PyTorch model weights will be saved as `L2ori_wJ_a
 
 ## 📊 Demo Vedio
 
-https://github.com/user-attachments/assets/339e219e-859d-4bbe-a369-ca24849c2064
-
-
+https://github.com/user-attachments/assets/b7ba3354-d9b8-4322-8442-f0e026e3f80f
 
 ## 📖 Citation
 
