@@ -17,7 +17,7 @@ This project provides a $\kappa$-Adaptive Physics-Informed Neural Network (A-PIN
 Based on the project files, the repository is organized as follows:
 
 *   **`Data_Generation/`**: Contains scripts for generating high-fidelity datasets.
-    *   `Data_Generator_Normalized_Ha...`: Script used to create a spatially uniform training dataset via Inverse Transform Sampling.
+    *   `Data_Generator_Normalized_Haar_Sobol_Rejection_Sampling.py`: Script used to create a spatially uniform training dataset via Inverse Transform Sampling.
 *   **`Train_model/`**: Contains the core training implementation.
     *   `L2ori_wJ_aPINN.py`: The main Python script for training the A-PINN framework.
     *   **`result/`**: Stores outputs from the training process.
