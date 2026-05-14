@@ -70,5 +70,14 @@ https://github.com/user-attachments/assets/b7ba3354-d9b8-4322-8442-f0e026e3f80f
 If you use this code or our methodology in your research, please consider citing the associated paper:
 
 ```bibtex
+@ARTICLE{11515083,
+  author={Tian, Xinyu and Xiao, Junlin and Xu, Hang and Hou, Xing and Jia, Fuhua and Yang, Xiaoying and Ijaz, Salman and Rushworth, Adam and Sun, Donglei},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Condition-Number Adaptive-Weight PINN (A-PINN): A High-Fidelity and Real-Time Forward Kinematics Solver for Stewart Platforms}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-8},
+  doi={10.1109/LRA.2026.3692332}}
 
 ```
