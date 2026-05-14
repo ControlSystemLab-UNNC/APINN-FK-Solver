@@ -45,6 +45,16 @@ Once the dataset is prepared, you can train the A-PINN framework. The training s
 
 ⚠️ IMPORTANT: Before starting the training, please open `L2ori_wJ_aPINN.py` and modify the dataset path (at the end of the script) variable to match the actual location of the dataset you just generated on your local machine.
 
+@ARTICLE{11515083,
+  author={Tian, Xinyu and Xiao, Junlin and Xu, Hang and Hou, Xing and Jia, Fuhua and Yang, Xiaoying and Ijaz, Salman and Rushworth, Adam and Sun, Donglei},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Condition-Number Adaptive-Weight PINN (A-PINN): A High-Fidelity and Real-Time Forward Kinematics Solver for Stewart Platforms}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-8},
+  doi={10.1109/LRA.2026.3692332}}
+
 ```bash
 cd ../Train_model
 python L2ori_wJ_aPINN.py
@@ -60,5 +70,5 @@ https://github.com/user-attachments/assets/b7ba3354-d9b8-4322-8442-f0e026e3f80f
 If you use this code or our methodology in your research, please consider citing the associated paper:
 
 ```bibtex
-TBD
+
 ```
